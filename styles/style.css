@@ -1,8 +1,102 @@
-/*
-Colors:
+.container {
+    width: 100vw
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row no-wrap;
+    margin-right: 50px;
+    list-style: none;
+}
 
-*/
+.logo {width: 10%;
+margin-left:50px}
+
+nav {display: flex;
+justify-content: space-between;}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    
+}
+
+.header {
+    text-align: center;
+    padding: 200px;
+    background-image: url("/lab-css-spotify-clone/images/landing.jpg");
+    background-size: cover;
+}
+
+.header h1 {
+    font-size: 5em;
+    color:#FFF
+}
+
+.header p {
+    font-size: 2em;
+    color:#FFF
+}
+
+.whatson {
+    background-color: #FFF
+}
+
+.whatson h2 {
+    text-align: center;
+    text-decoration: underline #00B172;
+    color: #1A1A1A;
+    font-size: 3em
+}
+
+.whatson h3 {
+    color: #00B172
+}
+
+.whatsonsections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+}
+
+.whatsonsections div {
+    padding: 5%;
+  width: 200px;
+  height:200px
+}
+.whatsonsections img {
+    width: 100px;
+    height:100px}
+.kanye {
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.kanye h2 {
+    border-bottom: solid 2px;
+    width: 300px;
+}
+
+.kanye div {max-width: 220px;
+}
+
+
+.kanye .icon img {
+    width: 100px;
+    height:100px;
+padding-top: 150px;
+}
+
+
+.kanye .app img {
+    padding-top:15%;
+    width: 80%;}
+    
